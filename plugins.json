@@ -1,1 +1,16 @@
-....
+[
+  {
+    "plugin": "HdFilmCehennemi",
+    "name": "HdFilmCehennemi",
+    "description": "Kendi yaptığım özel eklentim.",
+    "author": "Hasan",
+    "version": 1,
+    "url": "https://raw.githubusercontent.com/Kuantaxx/TestPlugins/master/ExampleProvider/build/ExampleProvider.cs3",
+    "tvTypes": [
+      "TvSeries",
+      "Movie"
+    ],
+    "language": "tr",
+    "iconUrl": "https://raw.githubusercontent.com/recloudstream/TestPlugins/master/ExampleProvider/src/main/res/drawable/ic_android_24dp.xml"
+  }
+]
