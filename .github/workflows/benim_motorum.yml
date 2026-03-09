@@ -1,0 +1,24 @@
+name: Eklentiyi Derle
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Java 17 Kurulumu
+      uses: actions/setup-java@v3
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+    - name: Izinleri Ayarla ve Derle
+      run: |
+        chmod +x gradlew
+        ./gradlew make
+    - name: Kurulum Dosyasini (cs3) Hazirla
+      uses: actions/upload-artifact@v3
+      with:
+        name: BenimEklentim
+        path: "**/build/*.cs3"
