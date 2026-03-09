@@ -1,16 +1,7 @@
 [
   {
-    "plugin": "ExampleProvider",
     "name": "HdFilmCehennemi",
-    "description": "Kuantaxx Özel Eklentisi",
-    "author": "Kuantaxx",
-    "version": 1,
-    "url": "https://raw.githubusercontent.com/Kuantaxx/TestPlugins/main/ExampleProvider.cs3",
-    "tvTypes": [
-      "TvSeries",
-      "Movie"
-    ],
-    "language": "tr",
-    "iconUrl": "https://raw.githubusercontent.com/recloudstream/TestPlugins/master/ExampleProvider/src/main/res/drawable/ic_android_24dp.xml"
+    "url": "https://raw.githubusercontent.com/Kuantaxx/TestPlugins/master/ExampleProvider.cs3",
+    "language": "tr"
   }
 ]
