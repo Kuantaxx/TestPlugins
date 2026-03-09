@@ -1,11 +1,11 @@
 [
   {
-    "plugin": "HdFilmCehennemi",
+    "plugin": "ExampleProvider",
     "name": "HdFilmCehennemi",
-    "description": "Kendi yaptığım özel eklentim.",
-    "author": "Hasan",
+    "description": "Kuantaxx Özel Eklentisi",
+    "author": "Kuantaxx",
     "version": 1,
-    "url": "https://raw.githubusercontent.com/Kuantaxx/TestPlugins/master/ExampleProvider/src/main/kotlin/com/example/ExampleProvider.cs3",
+    "url": "https://raw.githubusercontent.com/Kuantaxx/TestPlugins/main/ExampleProvider.cs3",
     "tvTypes": [
       "TvSeries",
       "Movie"
